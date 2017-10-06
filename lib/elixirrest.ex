@@ -5,7 +5,7 @@ defmodule Elixirrest do
 		import Supervisor.Spec, warn: false
 
 		children = [
-			worker(Elixirrest.AgentWorker, [])
+			worker(Elixirrest.Agent, [])
 		]
 
 		opts = [strategy: :one_for_one, name: Elixirrest.Supervisor]

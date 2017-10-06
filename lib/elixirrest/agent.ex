@@ -1,4 +1,4 @@
-defmodule Elixirrest.AgentWorker do
+defmodule Elixirrest.Agent do
 	@name __MODULE__
 
 	def start_link do

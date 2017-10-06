@@ -1,6 +1,6 @@
 defmodule Elixirrest.Api do
 	use Maru.Router
-	alias Elixirrest.AgentWorker, as: Store
+	alias Elixirrest.Agent, as: Store
 
 	namespace :items do
 		desc "get all items"
