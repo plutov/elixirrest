@@ -13,3 +13,12 @@ eix -S mix
 curl -XPOST -d "name=test" http://localhost:3030/items
 curl http://localhost:3030/items
 ```
+
+#### Executable
+
+Project uses [distillery](https://hex.pm/packages/distillery) for deployments. To build it run:
+
+```
+mix release.init
+mix release
+```

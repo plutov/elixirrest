@@ -15,6 +15,6 @@ defmodule Elixirrest.Mixfile do
 	end
 
 	defp deps do
-		[{:maru, "~> 0.2.8"}]
+		[{:maru, "~> 0.2.8"},{:distillery, "~> 1.5.2"}]
 	end
 end
