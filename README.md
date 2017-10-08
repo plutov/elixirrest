@@ -22,3 +22,9 @@ Project uses [distillery](https://hex.pm/packages/distillery) for deployments. T
 mix release.init
 mix release
 ```
+
+To start it run:
+
+```
+./_build/dev/rel/elixisrrest/bin/elixisrrest start
+```
